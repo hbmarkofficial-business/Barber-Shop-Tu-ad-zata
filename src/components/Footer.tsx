@@ -25,7 +25,6 @@ export const Footer = () => {
             <p className="text-muted-foreground text-sm leading-relaxed">
               Premium Barbershop für den modernen Gentleman.
               Seit Jahren die Adresse für Tradition und zeitgemäßen Stil.
-          
             </p>
             <div className="flex gap-4">
               <a 
@@ -85,11 +84,11 @@ export const Footer = () => {
                 <span>Dienstag - Freitag</span>
                 <span className="text-foreground">9:00 - 19:00</span>
               </li>
-            <li className="flex justify-between text-muted-foreground">
+              <li className="flex justify-between text-muted-foreground">
                 <span>Samstag</span>
-                <span className="text-foreground"9:00 - 15:00 </span>
+                <span className="text-foreground">9:00 - 15:00</span>
               </li>
-               
+              
               <li className="flex justify-between text-muted-foreground">
                 <span>Sonntag - Montag</span>
                 <span className="text-foreground">Geschlossen</span>
@@ -106,7 +105,7 @@ export const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                 Ravensberger Str. 89<br />
+                  Ravensberger Str. 89<br />
                   33824 Werther, Deutschland
                 </span>
               </li>
